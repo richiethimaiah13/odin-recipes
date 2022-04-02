@@ -1,10 +1,20 @@
-div{
-    color: pink;
-}
 
 li{
     color: blueviolet;
 }
-.comapny{
-    color: aquamarine;
+
+#feedback {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: x-large;
 }
+
+.headings {
+    font-size: large;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
