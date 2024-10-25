@@ -1,0 +1,22 @@
+*{
+    line-height: 1.5;
+}
+
+div {
+    background-color: aquamarine;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(190, 3, 223);
+    color: black;
+}
