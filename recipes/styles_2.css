@@ -34,3 +34,7 @@ section {
 .content {
     color: white;
 }
+
+.top.section .content {
+    text-align: justify;
+}
