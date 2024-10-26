@@ -1,0 +1,29 @@
+/* styles_3.css */
+
+.recipe-page {
+    background-color: rgb(255, 245, 131);
+    border: 3px solid brown;
+    margin: 2px;
+    padding: 3px;
+    line-height: 1.5;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border: 3px solid brown;
+}
+
+section {
+    border: 3px solid brown;
+    margin: 4px;
+    padding: 10px;
+}
+
+.top.section {
+    text-align: center;
+}
+
+.top.section .description-content {
+    text-align: justify;
+}
