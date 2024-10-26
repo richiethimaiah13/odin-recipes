@@ -1,0 +1,27 @@
+/* styles_1.css */
+
+.recipe-page {
+    background-color: antiquewhite;
+    border: 2px solid brown;
+    line-height: 1.5;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border: 5px solid black;
+}
+
+.top.section {
+    text-align: center;
+}
+
+.top.section p {
+    text-align: justify;
+}
+
+.section {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
