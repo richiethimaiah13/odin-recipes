@@ -1,40 +1,67 @@
 /* styles_2.css */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+}
 
 .recipe-page {
+    width: 700px;
+    margin: 0 auto;
     background-color: rgb(100, 100, 252);
-    border: 5px outset rgb(228, 89, 89);
-    margin: 5px;
-    padding: 5px;
+    border: 7px outset rgb(228, 89, 89);
+    padding: 20px;
 }
 
 img {
     width: 400px;
     height: auto;
     border: 5px inset black;
+    margin-bottom: 20px;
 }
+
 section {
     background-color: rgb(228, 89, 89);
     border: 4px ridge yellow;
-    margin: 5px;
-    padding: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
 
+.bottom.section {
+    margin-bottom: 0px;
 }
 
 .top.section {
     text-align: center;
 }
 
+.top.section .content {
+    text-align: justify;
+}
+
 .heading {
     text-align: center;
     background-color: white;
     border: 5px solid black;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+}
+
+.sub.heading {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .content {
     color: white;
+    margin-bottom: 0px;
 }
 
-.top.section .content {
-    text-align: justify;
-}
